@@ -11,9 +11,14 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', async (req, res) => {
     const quote = await apiBCB.getQuote()
-    res.render('home',{
-        quote
-    })
+    if (quote == "") {
+        res.render('home')
+    } else {
+        console.log('quote')
+        res.render('home-quote', {
+            quote
+        })
+    }
 })
 
 app.get('/cotacao', (req, res) => {
