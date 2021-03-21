@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
- # Note
+ # Importante
 
  Definindo o Collect Coverage no package.json é possível verificar a porcentagem de código testados.
 
