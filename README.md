@@ -2,8 +2,18 @@
   [Demo](http://convert-my-money-test.vercel.app/)
   
  O ConvertMyMoney faz conversão de de dólares para real. Traz por padrão a cotação do Banco Central, mas o valor pode ser alterado se o usuário desejar alterar os parâmetros da conversão.
- 
 
+ Versão com teste de software JEST.
+
+ # Note
+
+ Definindo o Collect Coverage no package.json é possível verificar a porcentagem de código testados.
+
+ ```
+ "jest": {
+    "collectCoverage": true
+ 
+```
 [![HitCount](http://hits.dwyl.com/leaoerikaleao/convertMyMoneyTest.svg)](http://hits.dwyl.com/leaoerikaleao/convertMyMoneyTest)
 
 
@@ -22,5 +32,6 @@ npm start
 * ExpressJS 
 * HTML
 * CSS 
+* Jest Test
 
 ## Licença MIT
