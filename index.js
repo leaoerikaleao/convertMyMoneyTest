@@ -14,7 +14,6 @@ app.get('/', async (req, res) => {
     if (quote == "") {
         res.render('home')
     } else {
-        console.log('quote')
         res.render('home-quote', {
             quote
         })
